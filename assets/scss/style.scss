@@ -1,0 +1,12 @@
+@use "../../../node_modules/normalize.css/normalize";
+
+.rect {
+  fill: olive;
+  stroke: green;
+  stroke-width: 10;
+}
+
+.svg:hover .rect {
+  fill: gray;
+  stroke: greenyellow;
+}
